@@ -1,38 +1,419 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Righteous&display=swap');
+.navBarColor{
+  background-color: rgb(247,247,247);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-head-font{
+  font-family: Broadway !important;
+font-size: 35px !important;
+
+}
+.samll-sub-content{
+  font-family: Bahnschrift Condensed;
+}
+.navtxt{
+  color: rgb(28,31,71) !important;
+
+}
+/* home */
+#banner {
+  background-color:rgb(247,247,247);
+  color: #fff;
+  padding-top: 5%;
+}
+.promo-title{
+
+  font-weight: 700;
+  font-size: 300%;
+  color: rgb(28,31,71);
+  border-radius: 95px 23px 82px;
+  font-family: Broadway;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.subtlt{
+  color: rgb(52,65,188) !important;
+  font-family: "Delivery Note DEMO";
+
+
+}
+
+.headContent{
+  font-family: Comic Sans MS;
+  line-height: 50px;
+  letter-spacing: 3px;
+  font-size: 16px;
+  color: rgb(2, 89, 188);
+
+}
+.btn-readMore{
+  background-color: #ffc70f;
+  font-family: Bahnschrift SemiBold;
+  border: none;
+  padding: 12px 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+
+}
+
+.btn-readMore:hover{
+  background-color: #ffa0f4;
+}
+#banner a {
+  color: #fff;
+  text-decoration: none;
+}
+.bottom-img {
+  width: 100%;
+}
+
+blockquote {
+  border-left:none
+}
+
+.quote-badge {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.cardColor{
+  background-color: #F7F7F7;
+  box-shadow: 2px 2px 2px 2px  #888888;
+}
+
+.quotation-mark {
+  
+  margin-top: 10px;
+  font-size:50px;
+  color: white;
+  font-family: "Times New Roman", Times, Serif;
+  
+}
+
+.quote-text {
+  
+  font-size: 15px;
+  margin-top: -9px;
+
+}
+
+
+.common{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.common-inner{
+  font-family: Segoe UI ;
+  color: rgb(28,31,71);
+  font-size: 36px;
+
+}
+
+.development-content{
+  font-family: Comic Sans MS;
+  line-height: 263%;
+  color: rgb(2, 89, 188);
+}
+.development-sub-heading
+{
+  color: rgb(52,65,188) !important;
+}
+/* about */
+.even-color{
+  color: rgb(52,65,188) !important;
+
+}
+.common-color
+{
+  color: rgb(28,31,71) !important;
+}
+
+.bak {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstcard {
+  border: none;
+}
+.colgap {
+  column-gap: 5%;
+}
+.for {
+  font-family: "Delivery Note DEMO";
+  font-size: 67px;
+  color: rgb(35, 67, 134);
+}
+.better {
+  font-family: "RectoFilled";
+  font-size: 58px;
+  color: rgb(35, 67, 134);
+}
+.pharaaa p {
+  font-family: "Axiforma";
+  font-size: 21px;
+  color: rgb(35, 67, 134);
+  line-height: 45px;
+}
+
+.back {
+  background-color: #b7b2b2;
+}
+.realtast {
+  font-family: "Delivery Note DEMO";
+  font-size: 45px;
+  color: rgb(35, 67, 134);
+}
+.realheal {
+  font-family: "RectoFilled";
+  font-size: 45px;
+  
+}
+.about-sub-content {
+  font-family: Comic Sans MS;
+  padding: 12px;
+  color: rgb(35, 67, 134);
+  line-height: 40px;
+  font-size: 18px;
+}
+
+/* why choose us */
+
+.wcu {
+  font-family: "RectoFilled";
+  font-size: 60px;
+  text-align: center !important;
+  color: rgb(35, 67, 134);
+}
+.founders {
+  font-family: "Bahnschrift Condensed";
+  font-size: 22px;
+  color: rgb(35, 67, 134);
+}
+.img0 {
+  position: absolute !important;
+  margin-left: -131px !important;
+  margin-bottom: 31px !important;
+  margin-top: 34px !important;
+}
+.img1 {
+  position: absolute !important;
+  margin-left: -121px !important;
+  margin-bottom: 37px !important;
+  margin-top: 45px !important;
+  width: 80px !important;
+  z-index: -1 !important;
+}
+
+/* double */
+.double {
+  background: linear-gradient(80deg, #0a0068 50%, #b7b2b2 50%);
+}
+
+#bottomsvg1 {
+  animation: mymove1 3s infinite;
+  position: relative;
+}
+
+@keyframes mymove1 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/*  */
+
+.fnts1 {
+  font-family: "Delivery Note DEMO";
+  color: rgb(35, 67, 134);
+
+  font-size: 28px;
+}
+
+/* inputsvg */
+#inputsvg {
+  margin-top: 27px;
+}
+.fnts {
+  font-family: "HWT Artz";
+  color: rgb(35, 67, 134);
+}
+.inputbox {
+  outline: none;
+  padding: 6px 23px;
+  color: rgb(35, 67, 134);
+  font-family: "HWT Artz";
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 0.5; /* Firefox */
+  font-family: "HWT Artz";
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#bluebtn {
+  width: 91px;
+}
+
+.inpntn {
+  font-family: "HWT Artz";
+  outline: none;
+  border: none;
+  background-color: rgb(35, 67, 134);
+  padding: 7px 8px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background-color: rgb(35, 67, 134);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+section h2 {
+  font-size: 2em;
+  color: aliceblue;
+}
+
+section svg {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  padding: 0 !important;
+}
+#nav-bar {
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  padding: 0 !important;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+/* about us page */
+@import url(//db.onlinewebfonts.com/c/065c29dc0334ec6377bffde6fb289fbd?family=Delivery+Note+DEMO);
+.svgline {
+  position: absolute !important;
+  margin-top: 45px !important;
+  margin-left: -17px !important;
+}
+.get {
+  font-family: "Delivery Note DEMO";
+  font-size: 55px;
+  width: 300;
+  text-align: center;
+  height: 40px;
+  color: rgb(35, 67, 134);
+}
+.withus {
+  font-family: "RectoFilled";
+  font-size: 50px;
+  width: 300;
+  text-align: center !important;
+  height: 93px;
+  color: rgb(35, 67, 134);
+}
+.FAQ {
+  font-family: "HWT Artz";
+  color: rgb(35, 67, 134);
+}
+::placeholder {
+  font-family: "Axiforma", sans-serif;
+  color: rgb(35, 67, 134);
+  font-size: 12px;
+}
+#exampleFormControlInput1 {
+  border-color: #234386;
+  border: 2px solid #234386;
+  border-radius: 10px;
+  padding: 6%;
+  outline: none;
+  font-family: "Axiforma", sans-serif;
+  font-size: 14px;
+  color: rgb(35, 67, 134);
+}
+.button-4 {
+  background-color: #ed7328;
+  border-radius: 25px;
+  padding: 4% 7% !important;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  transition: 0.3s;
+  font-family: "Axiforma", sans-serif;
+}
+.button-4:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
-  to {
-    transform: rotate(360deg);
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* map */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  position: absolute;
+}
+.font{
+  font-family: "Delivery Note DEMO";
+
+
+}
+.our-services-sub-heading{
+  font-family: "Delivery Note DEMO";
+  font-size: 22px;
+  
+
+}
+.our-services-sub-content{
+  font-family: Comic Sans MS;
+
+  font-size: 15px;
+  
+
+}
+@media screen and (max-width: 417px) {
+  .teamwork{
+width: 103% !important;  
   }
 }
