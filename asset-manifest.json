@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/own-website/static/css/main.0ac7a861.css",
+    "main.js": "/own-website/static/js/main.ac8f9463.js",
+    "static/js/787.9007c203.chunk.js": "/own-website/static/js/787.9007c203.chunk.js",
+    "static/media/image_processing20210909-20488-1367cr8.gif": "/own-website/static/media/image_processing20210909-20488-1367cr8.bf6f26fc141db2372b5e.gif",
+    "static/media/tem.gif": "/own-website/static/media/tem.6aace558473a54d85c9b.gif",
+    "static/media/Employees.gif": "/own-website/static/media/Employees.fe10a59895e075fa87bc.gif",
+    "static/media/banner1.gif": "/own-website/static/media/banner1.53b19da792c93f95c85e.gif",
+    "static/media/teamwork.png": "/own-website/static/media/teamwork.089f3557ff463d2cf78d.png",
+    "static/media/webappliction.png": "/own-website/static/media/webappliction.9096484839bd5aa10810.png",
+    "static/media/ERP-removebg-preview.png": "/own-website/static/media/ERP-removebg-preview.e64874867552db844569.png",
+    "static/media/mobileapplication.png": "/own-website/static/media/mobileapplication.b6e47ccbbd934c33cfdf.png",
+    "static/media/CRM-removebg-preview.png": "/own-website/static/media/CRM-removebg-preview.0a56380c79b5dc514489.png",
+    "static/media/web-removebg-preview.png": "/own-website/static/media/web-removebg-preview.61c1e4e584a8e56a79f4.png",
+    "static/media/pngfind.com-black-circle-frame-png-5199249.png": "/own-website/static/media/pngfind.com-black-circle-frame-png-5199249.66700dfefbf6e781a140.png",
+    "static/media/mobile-removebg-preview.png": "/own-website/static/media/mobile-removebg-preview.4a3ae7ff644b651ce41a.png",
+    "static/media/Digital_marketing-removebg-preview.png": "/own-website/static/media/Digital_marketing-removebg-preview.4e5008425f19ee362789.png",
+    "static/media/e-commerce-removebg-preview.png": "/own-website/static/media/e-commerce-removebg-preview.4ca1c0b2d1744af5c403.png",
+    "static/media/time-check.png": "/own-website/static/media/time-check.50b49abecfc168c9c2af.png",
+    "static/media/medal.png": "/own-website/static/media/medal.1e1a8fa9126d730e483c.png",
+    "static/media/insurance.png": "/own-website/static/media/insurance.8588ba58d3573a5a2c9d.png",
+    "static/media/analytic.png": "/own-website/static/media/analytic.4490cda47f68cebe4b54.png",
+    "static/media/wave1.png": "/own-website/static/media/wave1.4de881bf35ead0adb3ae.png",
+    "index.html": "/own-website/index.html",
+    "main.0ac7a861.css.map": "/own-website/static/css/main.0ac7a861.css.map",
+    "main.ac8f9463.js.map": "/own-website/static/js/main.ac8f9463.js.map",
+    "787.9007c203.chunk.js.map": "/own-website/static/js/787.9007c203.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ac7a861.css",
+    "static/js/main.ac8f9463.js"
+  ]
+}
