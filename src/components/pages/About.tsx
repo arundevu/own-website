@@ -160,7 +160,7 @@ export const About =()=>{
 
         <div className="container-fluid leaf">
 <div className="container-fluid mt-3 ">
-    <div className=" ">
+    <div>
         <h2 className="fnts text-center sub-head-font common-color ">EMAIL US</h2>
          
     </div>
