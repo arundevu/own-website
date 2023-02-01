@@ -113,7 +113,7 @@ export const About =()=>{
           <div className="container mt-5">
            </div>
          <div className="container mt-5">
-              <div className="row pt-5">
+              <div className=" pt-5">
             <h2 className="realheal text-center sub-head-font common-color">DISCOVER</h2>
             <h2 className="realtast text-center"> It all began </h2>
             <p className="samll-sub-content pt-4 text-center">Information and knowledge into action.</p> 
@@ -160,7 +160,7 @@ export const About =()=>{
 
         <div className="container-fluid leaf">
 <div className="container-fluid mt-3 ">
-    <div className="row ">
+    <div className=" ">
         <h2 className="fnts text-center sub-head-font common-color ">EMAIL US</h2>
          
     </div>

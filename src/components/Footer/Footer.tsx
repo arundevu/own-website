@@ -69,53 +69,21 @@ export const Footer=()=> {
                     <br />
                     hello@arunitech.com
                   </p>
-                  <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                  <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p> 
                 </div>
               </div>
             </section>
   
             <hr className="my-3" />
-            <section className="p-3 pt-0">
-              <div className="row d-flex align-items-center">
+            <section className="">
+              <div className="container-fluid row d-flex">
                 <div className="col-md-7 col-lg-8 text-center text-md-start">
                   
-                  <div className="p-3">
+                  <div className="">
                     © 2024 Copyright:
                     <a className="text-white" href="#">arunitech@gamil.com</a>
                   </div>
                 </div>
                 
-                <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                 
-                  <a
-                    className="btn btn-outline-light btn-floating m-1 text-white"
-                   
-                    role="button"
-                    ><i className="fa-brands fa-facebook-f"></i>
-                  </a>
-  
-                 
-                  <a
-                    className="btn btn-outline-light btn-floating m-1 text-white"
-                    role="button"
-                    ><i className="fab fa-twitter"></i
-                  ></a>
-  
-                
-                  <a
-                    className="btn btn-outline-light btn-floating m-1 text-white"
-                    
-                    role="button"
-                    ><i className="fab fa-google"></i>
-                  </a>
-  
-                  <a
-                    className="btn btn-outline-light btn-floating m-1 text-white"
-                    role="button"
-                    ><i className="fab fa-instagram"></i
-                  ></a>
-                </div>
               </div>
             </section>
           </div>
