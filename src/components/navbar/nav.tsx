@@ -6,8 +6,8 @@ export const NavBar =()=>{
 
 
     return<>
-    
-    <nav className=" flex justify-content-around navbar navbar-expand-md fixed-top  navbar-dark p-4 navBarColor">
+    <div   >
+    <nav className=" flex justify-content-around navbar navbar-expand-md fixed-top navBarColor navbar-dark p-4 ">
   <a className="navbar-brand navtxt" href="#"><b>Arunitech!</b></a>
   <button className="navbar-toggler" style={{borderColor:"rgb(227,132,34)"}} type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span className="navbar-toggler-icon" style={{borderColor:"rgb(227,132,34)"}} ></span>
@@ -30,7 +30,7 @@ export const NavBar =()=>{
   </div>  
     </div>
 </nav>
-
+</div>
     
     </>
 }
